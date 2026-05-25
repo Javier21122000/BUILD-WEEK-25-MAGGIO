@@ -136,13 +136,48 @@ startButton.addEventListener("click", function () {
   return renderQuiz();
 });
 
-const renderQuiz = () => {
-  app.innerHTML = `<div class= "benvenuto">
-<h2>Questa è la pagina del quiz</h2>
+/*const renderQuiz = () => {
+  app.innerHTML = `<div class= "domanda">
+  
+  <h5>Domanda 3 di 10</h5>
 
-<p>Qual è la celebre frase di Nils Liedholm?</p>
-<ul>
-<li>in 10 si gioca meglio</li>
-<li>Python</li>
+  
+  </div>
+  
+  
+  <div class= "quiz">
+  <h4>Il logo di Snapchat è una campana.</h4>
+  <div class= "risposte">
+  <p>Falso</p>
+  <p>Vero</p>
+  </div>
 </div>`;
+}; */
+const renderResults = () => {
+  app.innerHTML = `<div class= "results">
+  
+  <h3>Risultati</h3>
+  <p class="completamento">Hai completato il quiz.</p>
+  <br>
+  <br>
+  <p class="percentuale">70%</p>
+  <br>
+  <br>
+  <p class="promosso">Promosso</p> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="progresso">
+  Corrette<div class="progressBarSopra"></div>7/10
+  </div>
+  <br>
+  <div class="progresso">
+  Sbagliate <div class="progressBarSotto"></div>3/10
+  </div>
+  <div> 
+  <button id="buttonRestart">Ricomincia</button>
+  </div>
+  </div>`; //percentuale e promosso , da collegare a js promosso e bocciato
 };
+renderResults()
