@@ -160,4 +160,5 @@ body {
   background-color: #1b273f;
   color: aliceblue;
   padding: 13px 11px 10px;
+  cursor: pointer;
 }
