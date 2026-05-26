@@ -148,6 +148,9 @@ startButton.addEventListener("click", function () {
   </div>
 </div>`;
 }; */
+
+
+//javier e marco fanno questo pezzo
 const renderResults = () => {
   app.innerHTML = `<div class= "results">
   
@@ -176,3 +179,4 @@ const renderResults = () => {
   </div>`; //percentuale e promosso , da collegare a js promosso e bocciato
 };
 renderResults();
+//javier e marco fanno questo pezzo
